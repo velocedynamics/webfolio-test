@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Veloce Dynamics | Car</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="nav-logo-wrap">
+          <img src="assets/veloce-dynamics-logo.png" alt="Veloce Dynamics logo" />
+        </div>
+        <div class="nav-brand-text">
+          <div class="nav-team-name">Veloce Dynamics</div>
+          <div class="nav-tagline">Smiling International School Ferrara · Italy</div>
+        </div>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="team.html">Team</a>
+        <a href="car.html" class="is-active">Car</a>
+        <a href="documents.html">Documents</a>
+        <a href="sponsors.html">Sponsors</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <button class="nav-cta-btn" id="navCta" onclick="window.location.href='documents.html'">
+        <span>⬇</span> View Documents
+      </button>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </nav>
+  </header>
+
+  <main class="main-wrapper">
+    <section class="section reveal">
+      <div class="section-header">
+        <h1 class="section-title">VD-01 Car</h1>
+        <p class="section-subtitle">
+          The Veloce Dynamics race car for the 2025/2026 season: designed, modelled and refined through simulations and feedback.
+        </p>
+      </div>
+
+      <div class="car-layout">
+        <div class="car-hero-image-frame">
+          <!-- Car image path provided by you -->
+          <img src="image/Veloce Dynamics Car.jpg" alt="Veloce Dynamics Car" />
+        </div>
+
+        <div>
+          <div class="card" style="margin-bottom: 1rem;">
+            <div class="card-label">Overview</div>
+            <h2 class="card-title">Design Philosophy</h2>
+            <p class="card-body">
+              The VD-01 is designed around aerodynamic efficiency, structural integrity and rule compliance. The modelling team
+              balances minimal drag with practical considerations such as manufacturability and robustness under race conditions.
+            </p>
+            <p class="card-body" style="margin-top: 0.4rem;">
+              CAD and simulations are iterated in cycles, using feedback from test data and physics analysis to refine shapes such as wings, nose, underbody and wheels.
+            </p>
+          </div>
+
+          <div class="car-spec-grid">
+            <div class="car-spec-card">
+              <div class="card-label">Aerodynamics</div>
+              <div class="card-meta">
+                Streamlined profile, optimised cross-section and controlled airflow around the wheels to reduce drag and turbulence.
+              </div>
+            </div>
+            <div class="car-spec-card">
+              <div class="card-label">CFD & Testing</div>
+              <div class="card-meta">
+                Multiple CFD runs to compare configurations, evaluate pressure distribution and track improvements in drag reduction.
+              </div>
+            </div>
+            <div class="car-spec-card">
+              <div class="card-label">Manufacturing</div>
+              <div class="card-meta">
+                Designed for accurate machining / 3D printing, with attention to tolerances and surface finish where it matters.
+              </div>
+            </div>
+            <div class="car-spec-card">
+              <div class="card-label">Physics Input</div>
+              <div class="card-meta">
+                Use of physics-based reasoning for forces, acceleration and race strategy, aligning design with measurable performance.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-header">
+        <h2 class="section-title">Development</h2>
+        <p class="section-subtitle">
+          From first sketches to the final car used at the competition, every step is documented in the Engineering and Project Management documents.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-label">Concept & Sketches</div>
+          <h3 class="card-title">Initial Ideas</h3>
+          <p class="card-body">
+            Early car concepts explore different body shapes, wing placements and side pod configurations while respecting rules and
+            focussing on low drag and stability.
+          </p>
+          <p class="card-meta">
+            Detailed visuals and justification for the final concept are available in the Engineering document.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Simulation & Iteration</div>
+          <h3 class="card-title">Testing & Refinement</h3>
+          <p class="card-body">
+            CFD simulations inform decisions on where to remove material, add features or adjust angles.
+            Results are interpreted alongside physics calculations to ensure changes are meaningful.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      &copy; 2025/2026 Veloce Dynamics · Smiling International School Ferrara · Italy
+    </footer>
+  </main>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
