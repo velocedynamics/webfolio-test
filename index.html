@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Veloce Dynamics | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="nav-logo-wrap">
+          <img src="assets/veloce-dynamics-logo.png" alt="Veloce Dynamics logo" />
+        </div>
+        <div class="nav-brand-text">
+          <div class="nav-team-name">Veloce Dynamics</div>
+          <div class="nav-tagline">Smiling International School Ferrara · Italy</div>
+        </div>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="is-active">Home</a>
+        <a href="team.html">Team</a>
+        <a href="car.html">Car</a>
+        <a href="documents.html">Documents</a>
+        <a href="sponsors.html">Sponsors</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <button class="nav-cta-btn" id="navCta" onclick="window.location.href='documents.html'">
+        <span>⬇</span> View Documents
+      </button>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </nav>
+  </header>
+
+  <main class="main-wrapper">
+    <!-- Hero -->
+    <section class="hero reveal">
+      <div>
+        <div class="hero-kicker">
+          <span class="hero-dot"></span>
+          <span>2025 / 2026 STEM Racing Season</span>
+        </div>
+        <h1 class="hero-title">
+          <span>Veloce Dynamics</span><br />
+          STEM Racing Team
+        </h1>
+        <p class="hero-subtitle">
+          Representing Smiling International School Ferrara in the 2025/2026 STEM Racing competition, combining
+          engineering, physics and enterprise to design and race our car.
+        </p>
+
+        <div class="hero-meta-row">
+          <div class="hero-pill">
+            Season <strong>2025 / 2026</strong>
+          </div>
+          <div class="hero-pill">
+            School <strong>Smiling International School Ferrara</strong>
+          </div>
+          <div class="hero-pill">
+            Location <strong>Ferrara, Italy</strong>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="window.location.href='car.html'">
+            View Our Car <span>↗</span>
+          </button>
+          <button class="btn-outline" onclick="window.location.href='team.html'">
+            Meet the Team <span>👥</span>
+          </button>
+        </div>
+
+        <p class="hero-note">
+          This website is an independent student project by Veloce Dynamics and is not officially affiliated with the
+          competition organisers.
+        </p>
+      </div>
+
+      <div class="hero-car-shell">
+        <div class="car-card">
+          <div class="car-card-label">Car · Overview</div>
+          <div class="car-card-title">VD-01 Prototype</div>
+          <div class="car-image-frame">
+            <!-- You can replace the placeholder with a hero image if you want on the homepage as well -->
+            <div class="car-image-placeholder-text">
+              Visit the <strong>Car</strong> page to see the full render of the Veloce Dynamics car.
+            </div>
+          </div>
+          <div class="car-stats-row">
+            <div>
+              <div class="car-stat-label">CFD Runs</div>
+              <div class="car-stat-value">XX+</div>
+            </div>
+            <div>
+              <div class="car-stat-label">Best Reaction</div>
+              <div class="car-stat-value">0.000s</div>
+            </div>
+            <div>
+              <div class="car-stat-label">Record Time</div>
+              <div class="car-stat-value">0.000s</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documents overview -->
+    <section class="section reveal">
+      <div class="section-header">
+        <h2 class="section-title">Documents</h2>
+        <p class="section-subtitle">
+          Engineering, Enterprise and Project Management documents summarise the full journey of Veloce Dynamics.
+        </p>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-label">Engineering</div>
+          <h3 class="card-title">Engineering Document</h3>
+          <p class="card-body">
+            Aerodynamics, CAD modelling, CFD simulations, manufacturing strategies and test data behind our car.
+          </p>
+          <div class="doc-card-actions">
+            <span class="chip">Format: PDF</span>
+            <button class="doc-open-btn" onclick="window.location.href='documents.html#engineering'">
+              <span>↗</span> Open
+            </button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-label">Enterprise</div>
+          <h3 class="card-title">Enterprise Document</h3>
+          <p class="card-body">
+            Branding, sponsorship strategy, social media planning and financial management of Veloce Dynamics.
+          </p>
+          <div class="doc-card-actions">
+            <span class="chip">Format: PDF</span>
+            <button class="doc-open-btn" onclick="window.location.href='documents.html#enterprise'">
+              <span>↗</span> Open
+            </button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-label">Project Mgmt</div>
+          <h3 class="card-title">Project Management Document</h3>
+          <p class="card-body">
+            Planning, Gantt charts, risk assessments and milestones that guided the project from concept to race day.
+          </p>
+          <div class="doc-card-actions">
+            <span class="chip">Format: PDF</span>
+            <button class="doc-open-btn" onclick="window.location.href='documents.html#project-mgmt'">
+              <span>↗</span> Open
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Quick team & socials -->
+    <section class="section reveal">
+      <div class="section-header">
+        <h2 class="section-title">Team & Media</h2>
+        <p class="section-subtitle">
+          A group of students with roles in modelling, physics and marketing, backed by teachers and an active online presence.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-label">Team</div>
+          <h3 class="card-title">Who we are</h3>
+          <p class="card-body">
+            Veloce Dynamics is a STEM Racing team from Smiling International School Ferrara. Our members contribute skills
+            in car design, physics analysis, enterprise and external support.
+          </p>
+          <div class="card-meta">
+            <button class="doc-open-btn" onclick="window.location.href='team.html'">
+              <span>↗</span> Meet the team
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-label">Socials</div>
+          <h3 class="card-title">Follow our journey</h3>
+          <p class="card-body">
+            We share updates, behind-the-scenes content and race results on multiple platforms.
+          </p>
+          <div class="social-list">
+            <a class="social-pill" href="https://www.instagram.com/velocedynamics?igsh=azV3YTRrMnBpc2dj&utm_source=qr" target="_blank">
+              <span>📸</span> Instagram
+            </a>
+            <a class="social-pill" href="https://www.youtube.com/@SmilingRacingTeam" target="_blank">
+              <span>▶</span> YouTube
+            </a>
+            <a class="social-pill" href="https://www.tiktok.com/@01velocedynamics?_r=1&_t=ZN-91ic60SS9VH" target="_blank">
+              <span>🎵</span> TikTok
+            </a>
+            <a class="social-pill" href="https://x.com/velocedynamics?s=11&t=fx4v7_jzjXZ29g9mt3nVBg" target="_blank">
+              <span>✖</span> X
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      &copy; 2025/2026 Veloce Dynamics · Smiling International School Ferrara · Italy
+    </footer>
+  </main>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
