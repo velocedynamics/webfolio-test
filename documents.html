@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Veloce Dynamics | Documents</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="nav-logo-wrap">
+          <img src="assets/veloce-dynamics-logo.png" alt="Veloce Dynamics logo" />
+        </div>
+        <div class="nav-brand-text">
+          <div class="nav-team-name">Veloce Dynamics</div>
+          <div class="nav-tagline">Smiling International School Ferrara · Italy</div>
+        </div>
+      </div>
+
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="team.html">Team</a>
+        <a href="car.html">Car</a>
+        <a href="documents.html" class="is-active">Documents</a>
+        <a href="sponsors.html">Sponsors</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <button class="nav-cta-btn" id="navCta" onclick="window.location.href='#top-docs'">
+        <span>⬇</span> Scroll
+      </button>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </nav>
+  </header>
+
+  <main class="main-wrapper" id="top-docs">
+    <section class="hero reveal">
+      <div>
+        <div class="hero-kicker">
+          <span class="hero-dot"></span>
+          <span>Official documents</span>
+        </div>
+        <h1 class="hero-title">
+          <span>Veloce Dynamics</span><br />
+          Season Documents
+        </h1>
+        <p class="hero-subtitle">
+          These files present the technical, enterprise and project management work carried out by the team for the
+          2025/2026 STEM Racing season.
+        </p>
+        <div class="hero-meta-row">
+          <div class="hero-pill">
+            Format <strong>PDF</strong>
+          </div>
+          <div class="hero-pill">
+            Categories <strong>Engineering · Enterprise · Project Mgmt</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-car-shell">
+        <div class="car-card">
+          <div class="car-card-label">Access</div>
+          <div class="car-card-title">How to view</div>
+          <div class="car-image-frame">
+            <div class="car-image-placeholder-text">
+              Each document opens in a new tab as a PDF. Judges and partners can zoom, search and download for offline viewing.
+            </div>
+          </div>
+          <div class="car-stats-row">
+            <div>
+              <div class="car-stat-label">Recommended</div>
+              <div class="car-stat-value">Desktop · Full screen</div>
+            </div>
+            <div>
+              <div class="car-stat-label">Language</div>
+              <div class="car-stat-value">English (unless specified)</div>
+            </div>
+            <div>
+              <div class="car-stat-label">Status</div>
+              <div class="car-stat-value">Draft / final as submitted</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documents -->
+    <section class="section reveal">
+      <div class="section-header">
+        <h2 class="section-title">Documents List</h2>
+        <p class="section-subtitle">
+          Replace the links below with your actual exported PDF files. File names are suggestions and can be adapted.
+        </p>
+      </div>
+
+      <div class="grid" id="engineering">
+        <article class="card">
+          <div class="card-label">Engineering</div>
+          <h3 class="card-title">Engineering Document</h3>
+          <p class="card-body">
+            Full explanation of the design process, including CAD screenshots, CFD results, and justification for design
+            decisions such as body shape and wing placement.
+          </p>
+          <p class="card-meta">
+            File name: <strong>VeloceDynamics_Engineering.pdf</strong>
+          </p>
+          <div class="doc-card-actions">
+            <span class="chip">Car design & testing</span>
+            <a href="assets/VeloceDynamics_Engineering.pdf" target="_blank">
+              <button class="doc-open-btn">
+                <span>↗</span> Open PDF
+              </button>
+            </a>
+          </div>
+        </article>
+
+        <article class="card" id="enterprise">
+          <div class="card-label">Enterprise</div>
+          <h3 class="card-title">Enterprise Document</h3>
+          <p class="card-body">
+            Branding, sponsorship strategy, social media planning, outreach events, and financial overview of the team.
+          </p>
+          <p class="card-meta">
+            File name: <strong>VeloceDynamics_Enterprise.pdf</strong>
+          </p>
+          <div class="doc-card-actions">
+            <span class="chip">Brand & sponsorship</span>
+            <a href="assets/VeloceDynamics_Enterprise.pdf" target="_blank">
+              <button class="doc-open-btn">
+                <span>↗</span> Open PDF
+              </button>
+            </a>
+          </div>
+        </article>
+
+        <article class="card" id="project-mgmt">
+          <div class="card-label">Project Mgmt</div>
+          <h3 class="card-title">Project Management Document</h3>
+          <p class="card-body">
+            Project schedule, division of responsibilities, risk assessment and reflection on how the team organised its work.
+          </p>
+          <p class="card-meta">
+            File name: <strong>VeloceDynamics_ProjectManagement.pdf</strong>
+          </p>
+          <div class="doc-card-actions">
+            <span class="chip">Planning & organisation</span>
+            <a href="assets/VeloceDynamics_ProjectManagement.pdf" target="_blank">
+              <button class="doc-open-btn">
+                <span>↗</span> Open PDF
+              </button>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      &copy; 2025/2026 Veloce Dynamics · Smiling International School Ferrara · Italy
+    </footer>
+  </main>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
